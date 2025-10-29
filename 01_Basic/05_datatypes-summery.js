@@ -7,7 +7,7 @@
 // Array, Object, Functions
 
 const heroes = ["saktiman", "batman"] //array
-let myObj ={ name : negi,
+let myObj ={ name : 'negi',
     age : 55
 } // Objects
 
@@ -23,3 +23,28 @@ let myObj ={ name : negi,
 // Any other object	"object"
 
 //Reference = https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
+
+
+
+//********************************************************** */
+
+// Stack (Primitive) stack memory is used , when ever we use this to diclare a Varibale we get a copy 
+// 
+// Heap(Non-Primitive) Heap memory is used, when ever we use this to diclare a variable we get a referance 
+
+let myYoutubeName = "zedrottenyt"
+
+let anotherName = myYoutubeName
+anotherName = "chaiaurcode"
+
+// console.log(myYoutubeName);
+// console.log(anotherName);
+
+let userOne = {
+    name : "hello",
+    age : 44
+}
+
+let userTwo = userOne
+// console.log(userOne.age);
+// console.log(userTwo.age);
