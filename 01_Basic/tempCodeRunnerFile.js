@@ -1,6 +1,9 @@
-let myYoutubeName = "zedrottenyt"
+//
 
-// let anotherName = myYoutubeName
-// anotherName = "chaiaurcode"
+let myDate = new Date() // date is object
+//console.log(myDate.toString());
+//console.log(myDate.toLocaleDateString());
+//console.log(myDate.toLocaleString());
 
-// console.log(myYoutubeName);
+let myCreateDate = new Date(2024, 0, 22)
+console.log(myCreateDate.toLocaleDateString());

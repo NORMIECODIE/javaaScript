@@ -47,14 +47,14 @@ valueOf
 //****************Maths*****************************
 
 
-console.log(Math);
-console.log(Math.abs(-4));// Math.abs  makes the value positive 
-console.log(Math.round(4.4));// Math.abs  makes the value round off 
-console.log(Math.ceil(4.4));// Math.abs  makes the value by priortise the upper value value becomes 5
-console.log(Math.floor(4.4));// Math.abs  makes the value by priortise the lower value value becomes 4
+//console.log(Math);
+//console.log(Math.abs(-4));// Math.abs  makes the value positive 
+//console.log(Math.round(4.4));// Math.abs  makes the value round off 
+//console.log(Math.ceil(4.4));// Math.abs  makes the value by priortise the upper value value becomes 5
+//console.log(Math.floor(4.4));// Math.abs  makes the value by priortise the lower value value becomes 4
 
-console.log(Math.random());
-console.log((Math.random()*10) +1);
+//console.log(Math.random());
+//console.log((Math.random()*10) +1);
 
 /*
 [[Prototype]]
