@@ -1,1 +1,1 @@
-marvel_Heroes.push(dc_Heroes)
+const obj3 = {...obj1,...obj2
